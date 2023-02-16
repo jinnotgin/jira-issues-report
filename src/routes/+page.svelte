@@ -16,14 +16,13 @@
     data: [],
     generatedDateTime: null
   };
-  let sprintStartDate;
+  let sprintStartDate = new Date().toISOString().slice(0, 10);  // e.g 2023-02-16. does not account for timezone
   let sprintDurationWeeks;
   let sprintGroomingTarget;
 
   // import data from config (ie pre-configured)
   import CONFIG from "$lib/config.js";
   report = CONFIG.reportExport;
-  sprintStartDate = CONFIG.sprintStartDate;
   sprintDurationWeeks = CONFIG.sprintDurationWeeks;
   sprintGroomingTarget = CONFIG.sprintGroomingTarget;
 
