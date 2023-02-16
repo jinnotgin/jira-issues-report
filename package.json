@@ -1,0 +1,23 @@
+{
+	"name": "jira-issues-report",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@carbon/charts-svelte": "^1.6.4",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.1",
+		"@sveltejs/kit": "^1.5.0",
+		"autoprefixer": "^10.4.13",
+		"d3": "^7.8.2",
+		"postcss": "^8.4.21",
+		"svelte": "^3.54.0",
+		"tailwindcss": "^3.2.6",
+		"vite": "^4.0.0"
+	},
+	"type": "module"
+}
