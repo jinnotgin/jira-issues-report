@@ -100,7 +100,7 @@
 </script>
 
 <svelte:head>
-	<title>Jin - Jira Issue Report</title>
+	<title>Jira Issue Report - Jin</title>
   <style>
 </style>
 </svelte:head>
